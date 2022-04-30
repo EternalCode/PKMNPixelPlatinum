@@ -16,9 +16,10 @@ static const union AnimCmd sAnim_BULBASAUR_1[] =
 
 static const union AnimCmd sAnim_IVYSAUR_1[] =
 {
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_FRAME(1, 36),
+    ANIMCMD_FRAME(1, 12),
     ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 14),
     ANIMCMD_END,
 };
 
