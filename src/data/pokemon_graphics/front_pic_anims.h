@@ -8,9 +8,9 @@
 
 static const union AnimCmd sAnim_BULBASAUR_1[] =
 {
-    ANIMCMD_FRAME(0, 30),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(1, 22),
+    ANIMCMD_FRAME(0, 16),
     ANIMCMD_END,
 };
 
