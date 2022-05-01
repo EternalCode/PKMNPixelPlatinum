@@ -25,17 +25,17 @@ static const union AnimCmd sAnim_IVYSAUR_1[] =
 
 static const union AnimCmd sAnim_VENUSAUR_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 36),
+    ANIMCMD_FRAME(0, 18),
     ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_CHARMANDER_1[] =
 {
-    ANIMCMD_FRAME(0, 2),
-    ANIMCMD_FRAME(1, 46),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 12),
+    ANIMCMD_FRAME(0, 14),
+    ANIMCMD_FRAME(1, 12),
+    ANIMCMD_FRAME(0, 3),
     ANIMCMD_END,
 };
 

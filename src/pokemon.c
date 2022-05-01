@@ -1867,8 +1867,8 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
 {
     [SPECIES_BULBASAUR - 1]     = ANIM_V_STRETCH,
     [SPECIES_IVYSAUR - 1]       = ANIM_V_SHAKE,
-    [SPECIES_VENUSAUR - 1]      = ANIM_ROTATE_UP_SLAM_DOWN,
-    [SPECIES_CHARMANDER - 1]    = ANIM_V_JUMPS_SMALL,
+    [SPECIES_VENUSAUR - 1]      = ANIM_V_SHAKE,
+    [SPECIES_CHARMANDER - 1]    = ANIM_H_JUMPS,
     [SPECIES_CHARMELEON - 1]    = ANIM_BACK_AND_LUNGE,
     [SPECIES_CHARIZARD - 1]     = ANIM_V_SHAKE,
     [SPECIES_SQUIRTLE - 1]      = ANIM_SWING_CONCAVE,
@@ -2801,6 +2801,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
 {
+    [SPECIES_VENUSAUR - 1]   = 10,
     [SPECIES_BLASTOISE - 1]  = 50,
     [SPECIES_WEEDLE - 1]     = 10,
     [SPECIES_KAKUNA - 1]     = 20,
