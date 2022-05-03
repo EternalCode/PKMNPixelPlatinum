@@ -41,16 +41,15 @@ static const union AnimCmd sAnim_CHARMANDER_1[] =
 
 static const union AnimCmd sAnim_CHARMELEON_1[] =
 {
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_FRAME(1, 28),
+    ANIMCMD_FRAME(0, 13),
     ANIMCMD_END,
 };
 
 static const union AnimCmd sAnim_CHARIZARD_1[] =
 {
     ANIMCMD_FRAME(1, 40),
-    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(0, 14),
     ANIMCMD_END,
 };
 
