@@ -78,6 +78,7 @@ const struct BaseStats gBaseStats[] =
         .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_CHLOROPHYLL},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
+        .flags = FLAG_GENDER_DIFFERENCE,
     },
 
     [SPECIES_CHARMANDER] =
@@ -318,6 +319,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
+        .flags = FLAG_GENDER_DIFFERENCE,
     },
 
     [SPECIES_WEEDLE] =

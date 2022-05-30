@@ -1242,6 +1242,8 @@ const u8 *const gMonIconTable[] =
 
 const u8 *const gMonIconTableFemale[] =
 {
+    [SPECIES_VENUSAUR] = gMonIcon_Venusaur,
+    [SPECIES_BUTTERFREE] = gMonIcon_Butterfree,
     [SPECIES_EEVEE] = gMonIcon_Eevee,
     [SPECIES_STARLY] = gMonIcon_Starly,
     [SPECIES_STARAVIA] = gMonIcon_Staravia,
@@ -2437,6 +2439,8 @@ const u8 gMonIconPaletteIndices[] =
 
 const u8 gMonIconPaletteIndicesFemale[] =
 {
+    [SPECIES_VENUSAUR] = 4,
+    [SPECIES_BUTTERFREE] = 0,
     [SPECIES_EEVEE] = 2,
     [SPECIES_STARLY] = 0,
     [SPECIES_STARAVIA] = 0,
