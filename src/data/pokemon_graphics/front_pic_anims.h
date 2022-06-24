@@ -69,12 +69,20 @@ static const union AnimCmd sAnim_WARTORTLE_1[] =
     ANIMCMD_END,
 };
 
+//static const union AnimCmd sAnim_BLASTOISE_1[] =
+//{
+//    ANIMCMD_FRAME(1, 12),
+//    ANIMCMD_FRAME(0, 22),
+//    ANIMCMD_FRAME(1, 22),
+//    ANIMCMD_FRAME(0, 1),
+//    ANIMCMD_END,
+//}; // uncomment when hgss
+
 static const union AnimCmd sAnim_BLASTOISE_1[] =
 {
-    ANIMCMD_FRAME(1, 12),
-    ANIMCMD_FRAME(0, 22),
-    ANIMCMD_FRAME(1, 22),
-    ANIMCMD_FRAME(0, 24),
+    ANIMCMD_FRAME(0, 16),
+    ANIMCMD_FRAME(1, 44),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -4869,9 +4877,11 @@ static const union AnimCmd sAnim_EMPOLEON_1[] =
 
 static const union AnimCmd sAnim_STARLY_1[] =
 {
-    ANIMCMD_FRAME(0, 30),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(0, 12),
+    ANIMCMD_FRAME(1, 14),
+    ANIMCMD_FRAME(0, 14),
+    ANIMCMD_FRAME(1, 14),
+    ANIMCMD_FRAME(0, 9),
     ANIMCMD_END,
 };
 
