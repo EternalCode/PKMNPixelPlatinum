@@ -1288,6 +1288,7 @@ const struct BaseStats gBaseStats[] =
         .abilities = {ABILITY_CHLOROPHYLL, ABILITY_NONE, ABILITY_EFFECT_SPORE},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
+        .flags = FLAG_GENDER_DIFFERENCE,
     },
 
     [SPECIES_PARAS] =

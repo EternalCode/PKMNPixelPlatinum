@@ -882,7 +882,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_TOGEPI] =
     {
         .size = MON_COORDS_SIZE(24, 32),
-        .y_offset = 16,
+        .y_offset = 19,
     },
     [SPECIES_TOGETIC] =
     {
@@ -1986,7 +1986,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_STARLY] =
     {
-        .size = MON_COORDS_SIZE(40, 40),
+        .size = MON_COORDS_SIZE(48, 48),
         .y_offset = 12,
     },
     [SPECIES_STARAVIA] =

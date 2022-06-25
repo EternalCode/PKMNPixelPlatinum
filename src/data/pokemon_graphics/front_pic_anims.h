@@ -552,11 +552,8 @@ static const union AnimCmd sAnim_GLOOM_1[] =
 
 static const union AnimCmd sAnim_VILEPLUME_1[] =
 {
-    ANIMCMD_FRAME(0, 7),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 13),
-    ANIMCMD_FRAME(1, 21),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 36),
+    ANIMCMD_FRAME(0, 36),
     ANIMCMD_END,
 };
 
@@ -1704,10 +1701,12 @@ static const union AnimCmd sAnim_ARTICUNO_1[] =
 
 static const union AnimCmd sAnim_ZAPDOS_1[] =
 {
-    ANIMCMD_FRAME(1, 10),
-    ANIMCMD_FRAME(0, 10),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 18),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -2071,9 +2070,11 @@ static const union AnimCmd sAnim_IGGLYBUFF_2[] =
 
 static const union AnimCmd sAnim_TOGEPI_1[] =
 {
-    ANIMCMD_FRAME(1, 50),
-    ANIMCMD_FRAME(1, 50),
+    ANIMCMD_FRAME(0, 6),
+    ANIMCMD_FRAME(1, 14),
     ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 16),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
