@@ -1834,12 +1834,9 @@ static const union AnimCmd sAnim_TYPHLOSION_1[] =
 
 static const union AnimCmd sAnim_TOTODILE_1[] =
 {
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
-    ANIMCMD_FRAME(1, 8),
-    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(0, 16),
+    ANIMCMD_FRAME(1, 18),
+    ANIMCMD_FRAME(0, 18),
     ANIMCMD_END,
 };
 
@@ -2799,9 +2796,12 @@ static const union AnimCmd sAnim_SMOOCHUM_1[] =
 
 static const union AnimCmd sAnim_ELEKID_1[] =
 {
-    ANIMCMD_FRAME(1, 50),
-    ANIMCMD_FRAME(1, 5),
-    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(1, 4),
+    ANIMCMD_FRAME(0, 6),
+    ANIMCMD_FRAME(1, 6),
+    ANIMCMD_FRAME(0, 16),
+    ANIMCMD_FRAME(1, 38),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -5731,9 +5731,11 @@ static const union AnimCmd sAnim_PHIONE_1[] =
 
 static const union AnimCmd sAnim_MANAPHY_1[] =
 {
-    ANIMCMD_FRAME(0, 30),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(0, 24),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 32),
+    ANIMCMD_FRAME(0, 9),
     ANIMCMD_END,
 };
 
