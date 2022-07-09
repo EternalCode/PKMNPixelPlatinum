@@ -7604,6 +7604,7 @@ const struct BaseStats gBaseStats[] =
         .abilities = {ABILITY_SHIELD_DUST, ABILITY_NONE, ABILITY_COMPOUND_EYES},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = TRUE,
+        .flags = FLAG_GENDER_DIFFERENCE,
     },
 
     [SPECIES_LOTAD] =

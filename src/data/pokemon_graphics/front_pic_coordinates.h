@@ -1351,7 +1351,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_DUSTOX] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
+        .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 12,
     },
     [SPECIES_LOTAD] =
