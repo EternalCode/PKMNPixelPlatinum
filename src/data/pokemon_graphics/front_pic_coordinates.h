@@ -31,7 +31,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_CHARMELEON] =
     {
-        .size = MON_COORDS_SIZE(56, 56),
+        .size = MON_COORDS_SIZE(64, 56),
         .y_offset = 7,
     },
     [SPECIES_CHARIZARD] =
@@ -41,13 +41,13 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_SQUIRTLE] =
     {
-        .size = MON_COORDS_SIZE(40, 48),
+        .size = MON_COORDS_SIZE(48, 40),
         .y_offset = 11,
     },
     [SPECIES_WARTORTLE] =
     {
         .size = MON_COORDS_SIZE(56, 56),
-        .y_offset = 7,
+        .y_offset = 5,
     },
     [SPECIES_BLASTOISE] =
     {
@@ -882,7 +882,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_TOGEPI] =
     {
         .size = MON_COORDS_SIZE(24, 32),
-        .y_offset = 16,
+        .y_offset = 19,
     },
     [SPECIES_TOGETIC] =
     {
@@ -1351,7 +1351,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_DUSTOX] =
     {
-        .size = MON_COORDS_SIZE(64, 48),
+        .size = MON_COORDS_SIZE(64, 64),
         .y_offset = 12,
     },
     [SPECIES_LOTAD] =
@@ -1986,7 +1986,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_STARLY] =
     {
-        .size = MON_COORDS_SIZE(40, 40),
+        .size = MON_COORDS_SIZE(48, 48),
         .y_offset = 12,
     },
     [SPECIES_STARAVIA] =

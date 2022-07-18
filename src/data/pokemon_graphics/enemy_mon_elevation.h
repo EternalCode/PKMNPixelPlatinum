@@ -2,8 +2,8 @@
 // is during battle. Species that float or fly have nonzero values.
 const u8 gEnemyMonElevation[NUM_SPECIES] =
 {
-    [SPECIES_BUTTERFREE] = 10,
-    [SPECIES_BEEDRILL] = 9,
+    [SPECIES_BUTTERFREE] = 16,
+    [SPECIES_BEEDRILL] = 13,
     [SPECIES_PIDGEOT] = 5,
     [SPECIES_FEAROW] = 6,
     [SPECIES_ZUBAT] = 16,
@@ -17,7 +17,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_KOFFING] = 14,
     [SPECIES_WEEZING] = 6,
     [SPECIES_AERODACTYL] = 9,
-    [SPECIES_ZAPDOS] = 8,
+    [SPECIES_ZAPDOS] = 14,
     [SPECIES_MEW] = 11,
     [SPECIES_LEDIAN] = 10,
     [SPECIES_CROBAT] = 9,
@@ -35,7 +35,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_HO_OH] = 6,
     [SPECIES_CELEBI] = 15,
     [SPECIES_BEAUTIFLY] = 10,
-    [SPECIES_DUSTOX] = 12,
+    [SPECIES_DUSTOX] = 19,
     [SPECIES_NINJASK] = 10,
     [SPECIES_SHEDINJA] = 8,
     [SPECIES_WINGULL] = 15,
@@ -78,6 +78,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_MESPRIT] = 6,
     [SPECIES_AZELF] = 6,
     [SPECIES_CRESSELIA] = 3,
+    [SPECIES_MANAPHY] = 7,
     [SPECIES_DARKRAI] = 4,
     // Gen 5
     [SPECIES_MUNNA] = 7,
