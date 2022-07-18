@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 # pokeemerald Expansion
 
 ## What is the pokeemerald Expansion?
+=======
+# About this branch
+This is a decapitalized (all-caps text replaced with proper capitalization) version of the [**pokeemerald**](https://travis-ci.org/pret/pokeemerald) dissasembly, originally made by [**Wyrserth**](https://github.com/Wyrserth) and adapted to the current structure of the project.
+>>>>>>> e084a515e8bb766c1316ca0e128a73dd63b057a4
 
 The pokeemerald Expansion is a collection of feature branches that can be integrated into existing [pokeemerald](https://github.com/pret/pokeemerald) projects.
 
+<<<<<<< HEAD
 ## What feature branches are included?
+=======
+* pokeemerald.gba `sha1: 8C19F2555E10DFF32A9914CEAC360B018AF42E6C`
+>>>>>>> e084a515e8bb766c1316ca0e128a73dd63b057a4
 
 - **[Battle Engine Upgrade](../tree/battle_engine):** Upgrades the battle engine in pokeemerald to newer Generation games' standards. It also adds newer moves and abilities.
 - **[Pokémon Expansion](../tree/pokemon_expansion):** Adds Pokémon from newer Generations and makes them available in the National Dex. It also updates base stats and other Pokémon info.
