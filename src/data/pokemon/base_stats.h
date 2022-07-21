@@ -11988,6 +11988,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = TRUE,
+        .flags = FLAG_GENDER_DIFFERENCE,
     },
 
     [SPECIES_DRIFLOON] =

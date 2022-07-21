@@ -1457,7 +1457,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_SKITTY] =
     {
         .size = MON_COORDS_SIZE(56, 40),
-        .y_offset = 12,
+        .y_offset = 9,
     },
     [SPECIES_DELCATTY] =
     {
