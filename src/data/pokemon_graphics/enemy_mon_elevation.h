@@ -16,6 +16,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_HAUNTER] = 11,
     [SPECIES_KOFFING] = 14,
     [SPECIES_WEEZING] = 6,
+    [SPECIES_SCYTHER] = 4,
     [SPECIES_AERODACTYL] = 9,
     [SPECIES_ZAPDOS] = 14,
     [SPECIES_MEW] = 11,

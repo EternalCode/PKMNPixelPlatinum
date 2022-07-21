@@ -1489,14 +1489,9 @@ static const union AnimCmd sAnim_MR_MIME_1[] =
 
 static const union AnimCmd sAnim_SCYTHER_1[] =
 {
-    ANIMCMD_FRAME(1, 5),
-    ANIMCMD_FRAME(0, 5),
-    ANIMCMD_FRAME(1, 25),
-    ANIMCMD_FRAME(0, 5),
-    ANIMCMD_FRAME(1, 5),
-    ANIMCMD_FRAME(0, 5),
-    ANIMCMD_FRAME(1, 5),
-    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_FRAME(0, 29),
+    ANIMCMD_FRAME(1, 32),
+    ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
@@ -5102,9 +5097,9 @@ static const union AnimCmd sAnim_DRIFBLIM_1[] =
 
 static const union AnimCmd sAnim_BUNEARY_1[] =
 {
-    ANIMCMD_FRAME(0, 30),
-    ANIMCMD_FRAME(1, 30),
-    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(0, 16),
+    ANIMCMD_FRAME(1, 22),
+    ANIMCMD_FRAME(0, 20),
     ANIMCMD_END,
 };
 

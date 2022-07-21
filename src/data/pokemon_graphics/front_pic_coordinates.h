@@ -621,7 +621,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_SCYTHER] =
     {
-        .size = MON_COORDS_SIZE(56, 64),
+        .size = MON_COORDS_SIZE(48, 64),
         .y_offset = 1,
     },
     [SPECIES_JYNX] =
