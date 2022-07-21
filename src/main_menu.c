@@ -1559,8 +1559,9 @@ static void Task_NewGameBirchSpeech_BunearyFadeOut(u8 taskId)
 {
     if (!RunTextPrintersAndIsPrinter0Active())
     {
-        u8 spriteId = gTasks[taskId].tBunearySpriteId;
-        gSprites[spriteId].oam.objMode = ST_OAM_OBJ_BLEND;
+        // mark buneary to blend, and birch to not
+        gSprites[gTasks[taskId].tBunearySpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
+        gSprites[gTasks[taskId].tBirchSpriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
         NewGameBirchSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
         gTasks[taskId].func = Task_NewGameBirchSpeech_AndYouAre;
     }
@@ -2426,8 +2427,7 @@ static void Task_NewGameBirchSpeech_FadeOutTarget1InTarget2(u8 taskId)
 static void NewGameBirchSpeech_StartFadeOutTarget1InTarget2(u8 taskId, u8 delay)
 {
     u8 taskId2;
-
-    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT2_BG1 | BLDCNT_EFFECT_BLEND | BLDCNT_TGT1_OBJ);
+    SetGpuReg(REG_OFFSET_BLDCNT, BLDCNT_TGT2_BG1 | BLDCNT_TGT1_OBJ);
     SetGpuReg(REG_OFFSET_BLDALPHA, BLDALPHA_BLEND(16, 0));
     SetGpuReg(REG_OFFSET_BLDY, 0);
     gTasks[taskId].tIsDoneFadingSprites = 0;
